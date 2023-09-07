@@ -12,8 +12,7 @@ function ShirtCard({ image, sizes, precie, description }) {
         src={image}
         alt={description}
         title={description}
-        width="300"
-        height="300"
+        height="288"
       />
       <div className="p-5">
         {/* <a href="#">
