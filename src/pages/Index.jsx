@@ -28,7 +28,7 @@ function Index() {
 
   return (
     <>
-      <main className="pt-0 p-5 md:px-10 lg:px-20 relative min-h-screen">
+      <main className="pt-0 p-5 md:px-10 lg:px-20 relative min-h-[100dvh]">
         
         <FocusSite></FocusSite>
         <FilterCatalog linkWhatsApp={linkWhatsApp} linkFacebook={linkFacebook}></FilterCatalog>

@@ -7,7 +7,7 @@ function FucusSite() {
       <section className="xl:px-32 ">
         <div className={`absolute overflow-hidden bg-[url('/src/assets/images/beams-home.avif')] inset-0 bg-contain bg-no-repeat`}></div>
 
-        <article className="min-h-[80vh] flex flex-row py-8 justify-between relative">
+        <article className="min-h-[80dvh] flex flex-row py-8 justify-between relative">
           <div className="flex flex-col items-left justify-center animate-fade-up">
             <h1 className="text-slate-900 text-[2rem] md:text-[3rem] xl:text-[5rem] font-bold drop-shadow-sm">
               Viste con estilo
