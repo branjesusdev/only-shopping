@@ -1,5 +1,5 @@
 import { OutProducts } from '@/models/OutProducts.interface'
-import { PRODUCTS_ENDPOINT } from '/src/environments/environment'
+import { PRODUCTS_ENDPOINT } from '@/environments/environment'
 
 export const getProducts = async () : Promise<OutProducts> => {
   try {

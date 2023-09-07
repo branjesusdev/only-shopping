@@ -2,11 +2,11 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-import { getProducts } from '/src/services/products'
+import { getProducts } from '@/services/products'
 
-import FocusSite from '../layouts/FocusSite'
-import Products from '../layouts/Products'
-import FilterCatalog from '../layouts/FilterCatalog'
+import FocusSite from '@/layouts/FocusSite'
+import Products from '@/layouts/Products'
+import FilterCatalog from '@/layouts/FilterCatalog'
 
 function Index() {
   const [ products, setProducts ] = useState([])

@@ -1,11 +1,8 @@
-import ButtonContact from "../components/ButtonContact";
+import ButtonContact from "@/components/ButtonContact";
 
 function ShirtCard({ image, sizes, precie, description }) {
 
-  const handleViewProduct = () => {
-
-    
-  }
+  const handleViewProduct = () => {}
 
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -42,7 +39,7 @@ function ShirtCard({ image, sizes, precie, description }) {
           <ButtonContact
             textButton="Comprar"
             redirectTo={
-              "https://api.whatsapp.com/send?phone=+573204040609&text=%F0%9F%91%8BHola!!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre"
+              `${'https://api.whatsapp.com/send?phone=+573204040609&text=👋 Hola!! Quiero más información sobre ' + description}`
             }
           ></ButtonContact>
         </div>

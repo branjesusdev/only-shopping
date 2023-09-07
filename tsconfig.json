@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-
+    "baseUrl": "./",
     "paths": {
       "@/*" : ["./src/*"]
     },
@@ -25,14 +25,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
+
   "references": [{ "path": "./tsconfig.node.json" }],
   "eslintConfig": ["/node_modules/standardts/tslint.json"]
 }

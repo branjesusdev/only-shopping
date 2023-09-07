@@ -1,10 +1,5 @@
-// COMPONENTS
-
-import ShirtCard from "../components/ShirtCard";
-
-// LOGIC
-
-import DirectoryPathShirts from "../logic/DirectoryPathShirts";
+import ShirtCard from "@/components/ShirtCard";
+import DirectoryPathShirts from "@/logic/DirectoryPathShirts";
 
 function Products( { productsArray } ) {
   return (

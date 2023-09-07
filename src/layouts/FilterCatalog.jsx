@@ -1,6 +1,6 @@
-import useIsFixedScroll from "../hooks/useIsFixedScroll";
-import IconWhatsApp from '../components/content/IconWhatsApp'
-import IconFacebook from "../components/content/InconFacebook";
+import useIsFixedScroll from "@/hooks/useIsFixedScroll";
+import IconWhatsApp from '@/components/content/IconWhatsApp'
+import IconFacebook from "@/components/content/InconFacebook";
 
 function FilterCatalog ( { linkWhatsApp, LinkFacebook } ) {
 
