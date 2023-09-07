@@ -1,3 +1,5 @@
+import NequiLogo  from '../assets/icons/nequi.svg'
+
 import useIsFixedScroll from "@/hooks/useIsFixedScroll";
 import IconWhatsApp from '@/components/content/IconWhatsApp'
 import IconFacebook from "@/components/content/InconFacebook";
@@ -24,7 +26,7 @@ function FilterCatalog ( { linkWhatsApp, LinkFacebook } ) {
               Pagos
             </p>
             <div className="border-solid border-b-[1px] border-indigo-200 rounded-lg"></div>
-            <img src="/src/assets/icons/Nequi-logo.svg" className="w-24" alt="Pagos por Nequi" />
+            <img src={NequiLogo} className="w-24" alt="Pagos por Nequi" />
           </div>
 
           <div className="flex flex-col gap-3">

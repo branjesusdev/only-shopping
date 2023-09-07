@@ -1,1 +1,1 @@
-export const PRODUCTS_ENDPOINT = '/src/data/products.json'
+export const PRODUCTS_ENDPOINT = '/data/products.json'

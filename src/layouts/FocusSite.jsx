@@ -1,6 +1,6 @@
+import imgFocus from '@/assets/images/girl-shirt.png';
+
 function FucusSite() {
-  
-  const imgFocus = "/src/assets/images/girl-shirt.png"
 
   return (
     <>

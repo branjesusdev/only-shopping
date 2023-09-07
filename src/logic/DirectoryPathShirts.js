@@ -1,3 +1,3 @@
 export default function DirectoryPathShirts() {
-  return '/public/images/shirts/'
+  return '/images/shirts/'
 }
