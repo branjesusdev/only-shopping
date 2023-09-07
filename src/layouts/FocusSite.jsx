@@ -1,11 +1,11 @@
-import imgFocus from '@/assets/images/girl-shirt.png';
+import imgFocus from '@/assets/images/girl-shirt.avif';
 
 function FucusSite() {
 
   return (
     <>
       <section className="xl:px-32 ">
-        <div className={`absolute overflow-hidden bg-[url('/src/assets/images/beams-home.jpg')] inset-0 bg-contain bg-no-repeat`}></div>
+        <div className={`absolute overflow-hidden bg-[url('/src/assets/images/beams-home.avif')] inset-0 bg-contain bg-no-repeat`}></div>
 
         <article className="min-h-[80vh] flex flex-row py-8 justify-between relative">
           <div className="flex flex-col items-left justify-center animate-fade-up">

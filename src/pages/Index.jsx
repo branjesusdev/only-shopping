@@ -12,6 +12,9 @@ function Index() {
   const [ products, setProducts ] = useState([])
   const [ notProducts, setNotProducts ] = useState(false)
 
+  const linkWhatsApp = "https://api.whatsapp.com/send?phone=+573204040609&text=Quiero más información"
+  const linkFacebook = "https://facebook.com/"
+
   const refreshProducts = () => {
     getProducts().then( ({code, products}) => {
       if(code == 200)
@@ -28,7 +31,7 @@ function Index() {
       <main className="pt-0 p-5 md:px-10 lg:px-20 relative min-h-screen">
         
         <FocusSite></FocusSite>
-        <FilterCatalog></FilterCatalog>
+        <FilterCatalog linkWhatsApp={linkWhatsApp} linkFacebook={linkFacebook}></FilterCatalog>
         <Products productsArray={products}></Products>
         
       </main>

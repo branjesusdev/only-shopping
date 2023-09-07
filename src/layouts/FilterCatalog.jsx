@@ -1,10 +1,10 @@
-import NequiLogo  from '../assets/icons/nequi.svg'
+import NequiLogo  from '../assets/icons/nequi.avif'
 
 import useIsFixedScroll from "@/hooks/useIsFixedScroll";
 import IconWhatsApp from '@/components/content/IconWhatsApp'
 import IconFacebook from "@/components/content/InconFacebook";
 
-function FilterCatalog ( { linkWhatsApp, LinkFacebook } ) {
+function FilterCatalog ( { linkWhatsApp, linkFacebook } ) {
 
   const fixedElement = "card-filter--search"
   const { isFixed } = useIsFixedScroll({ elementById: fixedElement });
@@ -26,7 +26,7 @@ function FilterCatalog ( { linkWhatsApp, LinkFacebook } ) {
               Pagos
             </p>
             <div className="border-solid border-b-[1px] border-indigo-200 rounded-lg"></div>
-            <img src={NequiLogo} className="w-24" alt="Pagos por Nequi" />
+            <img src={NequiLogo} className="w-24" alt="Pagos por Nequi" width="200" height="80"/>
           </div>
 
           <div className="flex flex-col gap-3">
@@ -38,7 +38,7 @@ function FilterCatalog ( { linkWhatsApp, LinkFacebook } ) {
               <a href={linkWhatsApp} className="cursor-pointer hover:scale-110 transition-all delay-75">
                 <IconWhatsApp classProp={`${isFixed ? 'w-8 h-8' : 'w-10 h-10' } text-[#25D366] drop-shadow-md animate-jump-in`}></IconWhatsApp>
               </a>
-              <a href={LinkFacebook} className="cursor-pointer hover:scale-110 transition-all delay-75">
+              <a href={linkFacebook} className="cursor-pointer hover:scale-110 transition-all delay-75">
                 <IconFacebook classProp={`${isFixed ? 'w-8 h-8' : 'w-10 h-10' } text-[#4267B2] drop-shadow-md animate-jump-in`}></IconFacebook>
               </a>
             </div>
