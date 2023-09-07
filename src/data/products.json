@@ -25,7 +25,7 @@
     },
     {
       "ref" : "0005",
-      "image" : "4.jpg",
+      "image" : "11.jpg",
       "description": "Camisa blanca estanpada",
       "precie": "$14.000",
       "sizes": [ "XL", "M" ]
@@ -39,7 +39,7 @@
     },
     {
       "ref" : "0007",
-      "image" : "6.png",
+      "image" : "11.jpg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "S", "M", "XL"  ]
