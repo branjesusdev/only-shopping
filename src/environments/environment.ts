@@ -1,0 +1,1 @@
+export const PRODUCTS_ENDPOINT = '/src/data/products.json'

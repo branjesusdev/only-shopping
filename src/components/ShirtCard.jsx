@@ -3,13 +3,14 @@ import ButtonContact from "../components/ButtonContact";
 function ShirtCard({ image, sizes, precie, description }) {
 
   const handleViewProduct = () => {
+
     
   }
 
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <img
-        className="rounded-t-lg rounded-b-full cursor-pointer"
+        className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full h-[18rem] md:h-[24rem] xl:h-[30rem]"
         onClick={handleViewProduct()}
         src={image}
         alt={description}
