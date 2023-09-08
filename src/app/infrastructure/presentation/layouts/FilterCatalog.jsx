@@ -9,7 +9,7 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
   const { isFixed } = useIsFixedScroll({ elementById: fixedElement });
 
   return (
-    <section className="min-h-[4rem] xl:min-h-[7rem] w-full">
+    <section className="min-h-[7rem] w-full mb-20">
       <article
         id={fixedElement}
         className={`${
@@ -17,7 +17,7 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
             ? "fixed top-0 left-0 rounded-b-md py-3 px-3 xl:px-28 animate-flip-down animate-duration-700 animate-ease-in-out"
             : "relative rounded-3xl py-3 px-4 xl:px-12 xl:py-5 animate-flip-down animate-duration-700 animate-ease-in-out"
         } 
-          border-solid border-[1px] border-[rgb(0,0,0,.1)] w-full [transition:_all_0.5s_ease] mb-20 shadow-md z-20 bg-white`}
+          border-solid border-[1px] border-[rgb(0,0,0,.1)] w-full [transition:_all_0.5s_ease] shadow-md z-20 bg-white`}
       >
         <div className="flex flex-row justify-around">
           <div className="flex flex-col gap-3">
