@@ -8,8 +8,7 @@ import { linkWhatsApp, linkFacebook } from '@/app/config/defaults'
 import FocusSite from '@infrastructure/presentation/layouts/FocusSite'
 import Products from '@infrastructure/presentation/layouts/Products'
 import FilterCatalog from '@infrastructure/presentation/layouts/FilterCatalog'
-
-import ModalProduct from "@infrastructure/presentation/components/ModalProduct";
+import FooterSite from '@infrastructure/presentation/layouts/FooterSite'
 
 function Index() {
   const [ products, setProducts ] = useState([])
@@ -36,9 +35,7 @@ function Index() {
         <FocusSite></FocusSite>
         <FilterCatalog linkWhatsApp={actionWhatsApp} linkFacebook={actionFacebook}></FilterCatalog>
         <Products productsArray={products} skeletonStatus={skeleton}></Products>
-
-        <ModalProduct></ModalProduct>
-        
+        <FooterSite></FooterSite>
       </main>
     </>
   );

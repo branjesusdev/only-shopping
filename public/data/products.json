@@ -4,67 +4,59 @@
   "products": [
     {
       "ref" : "0001",
-      "image" : "10.avif",
+      "image" : "image1.jpeg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
     },
     {
       "ref" : "0003",
-      "image" : "2.avif",
+      "image" : "image2.jpeg",
       "description": "Camisa blanca estanpada",
-      "precie": "$15.000",
+      "precie": "$20.000",
       "sizes": [ "S"]
     },
     {
       "ref" : "0004",
-      "image" : "3.avif",
+      "image" : "image3.jpeg",
       "description": "Camisa blanca estanpada",
-      "precie": "$2.000",
+      "precie": "$20.000",
       "sizes": [ "S", "L" ]
     },
     {
       "ref" : "0005",
-      "image" : "11.avif",
+      "image" : "image4.jpeg",
       "description": "Camisa blanca estanpada",
-      "precie": "$14.000",
+      "precie": "$20.000",
       "sizes": [ "XL", "M" ]
     },
     {
       "ref" : "0006",
-      "image" : "5.avif",
+      "image" : "image5.jpeg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "L", "M" ]
     },
     {
       "ref" : "0007",
-      "image" : "11.avif",
+      "image" : "image6.jpeg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "S", "M", "XL"  ]
     },
     {
       "ref" : "0008",
-      "image" : "7.avif",
+      "image" : "image7.jpeg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
     },
     {
       "ref" : "0009",
-      "image" : "9.avif",
+      "image" : "image8.jpeg",
       "description": "Camisa blanca estanpada",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
-    },
-    {
-      "ref" : "00010",
-      "image" : "modelo.avif",
-      "description": "Camisa blanca estanpada",
-      "precie": "$20.000",
-      "sizes": [ "S", "M" ]
-    }
-    
+    }    
   ]
 }
