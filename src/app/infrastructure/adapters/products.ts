@@ -1,4 +1,4 @@
-import { OutProducts } from '@/models/OutProducts.interface'
+import { OutProducts } from '@domain/models/OutProducts.interface'
 import { PRODUCTS_ENDPOINT } from '@/environments/environment'
 
 export const getProducts = async () : Promise<OutProducts> => {

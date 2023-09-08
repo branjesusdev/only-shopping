@@ -1,18 +1,18 @@
-import ButtonContact from "@/components/ButtonContact";
 
-function ShirtCard({ image, sizes, precie, description }) {
+import ButtonContact from "@infrastructure/presentation/components/ButtonContact";
+import { linkWhatsApp } from '@/app/config/defaults'
 
-  const handleViewProduct = () => {}
+function ShirtCard({ image, sizes, precie, description, handleViewProduct }) {
 
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <img
         className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full h-[18rem] md:h-[24rem] xl:h-[30rem]"
-        onClick={handleViewProduct()}
+        onClick={() => handleViewProduct({image, description, precie, sizes})}
         src={image}
         alt={description}
         title={description}
-        height="288"
+        height="272"
       />
       <div className="p-5">
         {/* <a href="#">
@@ -38,7 +38,7 @@ function ShirtCard({ image, sizes, precie, description }) {
           <ButtonContact
             textButton="Comprar"
             redirectTo={
-              `${'https://api.whatsapp.com/send?phone=+573204040609&text=👋 Hola!! Quiero más información sobre ' + description}`
+              `${linkWhatsApp + description}`
             }
           ></ButtonContact>
         </div>

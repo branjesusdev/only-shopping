@@ -1,11 +1,11 @@
-import NequiLogo from "../assets/icons/nequi.avif";
+import NequiLogo from "@/assets/icons/nequi.avif";
 
-import useIsFixedScroll from "@/hooks/useIsFixedScroll";
-import IconWhatsApp from "@/components/content/IconWhatsApp";
-import IconFacebook from "@/components/content/InconFacebook";
+import useIsFixedScroll from "@infrastructure/hooks/useIsFixedScroll";
+import IconWhatsApp from "@infrastructure/presentation/components/content/IconWhatsApp";
+import IconFacebook from "@infrastructure/presentation/components/content/InconFacebook";
 
 function FilterCatalog({ linkWhatsApp, linkFacebook }) {
-  const fixedElement = "card-filter--search";
+  const fixedElement = "scroll-top--fixed";
   const { isFixed } = useIsFixedScroll({ elementById: fixedElement });
 
   return (
@@ -13,10 +13,10 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
       id={fixedElement}
       className={`${
         isFixed
-          ? "fixed top-0 left-0 rounded-b-md py-3 px-3 xl:px-28 "
-          : "relative rounded-3xl py-3 px-4 xl:px-12 xl:py-5"
+          ? "fixed top-0 left-0 rounded-b-md py-3 px-3 xl:px-28 animate-opacity transition-opacity duration-700 opacity-1"
+          : "relative rounded-3xl py-3 px-4 xl:px-12 xl:py-5 animate-opacity transition-opacity duration-700 opacity-1"
       } 
-        border-solid border-[1px] border-[rgb(0,0,0,.1)] w-full [transition:_all_0.5s_ease] mb-20 shadow-md z-20 bg-white `}
+        border-solid border-[1px] border-[rgb(0,0,0,.1)] w-full [transition:_all_0.5s_ease] mb-20 shadow-md z-20 bg-white`}
     >
       <div className="flex flex-row justify-around">
         <div className="flex flex-col gap-3">
@@ -64,6 +64,7 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
           </div>
         </div>
       </div>
+      <div id="scroll-top--fixed"></div>
     </section>
   );
 }
