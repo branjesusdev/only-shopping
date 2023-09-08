@@ -16,7 +16,7 @@ function ModalProduct({ image, description, precie, showPreview, handlePreviewHi
             backdrop-blur-md 
             overflow-hidden flex 
             place-content-center items-center
-            animate-jump animate-once animate-duration-[600ms] animate-ease-in-out"
+            animate-jump-in animate-once animate-duration-[400ms] animate-ease-linear"
       >
         <img
           src={image}
