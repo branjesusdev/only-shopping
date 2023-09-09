@@ -21,6 +21,8 @@ function FucusSite() {
               src={imgFocus}
               alt="Blusa dama con colores de fondos en degradado"
               width="436"
+              fetchpriority="high"
+              sizes="(max-width: 767px) 767px, 100vw"
               className="h-[10rem]  sm:h-[20rem]  md:h-[30rem] xl:h-[32rem] 2xl:h-[40rem] w-auto animate-fade-up"
             />
           </div>

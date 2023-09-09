@@ -7,7 +7,7 @@ function FooterSite({ linkWhatsApp, linkFacebook }) {
   return (
     <footer className="rounded-t-[2rem] lg:rounded-t-[4rem] bg-slate-900 py-10 p-5 md:px-10 lg:px-20 relative text-slate-50">
       <article className="flex flex-row justify-start items-center">
-        <img src="/shopping.svg" alt="Icono de Shopping Online" width="50" />
+        <img src="/shopping.svg" alt="Icono de Shopping Online" width="50" height="50"/>
         <h1 className=" text-3xl">Only Shopping</h1>
       </article>
 
