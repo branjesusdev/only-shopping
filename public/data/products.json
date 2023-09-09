@@ -32,9 +32,9 @@
     {
       "ref" : "0004",
       "image" : "image4.avif",
-      "title" : "Lala",
+      "title" : "Lala Bunny",
       "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
-      "message": "Camisa blanca estanpada Lala Referencia 4",
+      "message": "Camisa blanca estanpada Lala Bunny Referencia 4",
       "precie": "$20.000",
       "sizes": [ "XL", "M" ]
     },
@@ -50,7 +50,7 @@
     {
       "ref" : "0006",
       "image" : "image6.avif",
-      "title" : "Stich",
+      "title" : "Stitch",
       "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
       "message": "Camisa blanca estanpada Stitch Referencia 6",
       "precie": "$20.000",
