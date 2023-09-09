@@ -5,7 +5,7 @@ import IconMapPin from "@infrastructure/presentation/components/content/IconMapP
 
 function FooterSite({ linkWhatsApp, linkFacebook }) {
   return (
-    <footer className="rounded-t-[5rem] bg-slate-900 py-10 p-5 md:px-10 lg:px-20 relative text-slate-50">
+    <footer className="rounded-t-[2rem] lg:rounded-t-[4rem] bg-slate-900 py-10 p-5 md:px-10 lg:px-20 relative text-slate-50">
       <article className="flex flex-row justify-start items-center">
         <img src="/shopping.svg" alt="Icono de Shopping Online" width="50" />
         <h1 className=" text-3xl">Only Shopping</h1>
@@ -55,7 +55,7 @@ function FooterSite({ linkWhatsApp, linkFacebook }) {
             </div>
             <div>
               <IconPhone></IconPhone>
-              <a>+57 322 443 0609 - +57 320 000 0011</a>
+              <a>(+57) 322 443 0609 - (+57) 320 000 0011</a>
             </div>
           </div>
         </div>
