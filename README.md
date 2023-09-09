@@ -1,12 +1,12 @@
 <div style="display: flex;">
   <img src="/public/git/Home.png" alt="Home" style="width:300px;">
-  <img src="/public/git/Products.png" alt="Winner" style="width: 300px;">
-  <img src="/public/git/Detail.png" alt="Empate" style="width: 300px;">
-  <img src="/public/git/SEO.png" alt="Empate" style="width: 300px;">
+  <img src="/public/git/Products.png" alt="Products" style="width: 300px;">
+  <img src="/public/git/Detail.png" alt="Detalle" style="width: 300px;">
+  <!-- <img src="/public/git/SEO.png" alt="Empate" style="width: 300px;"> -->
 </div>
 
 
-> 🔗 **Sitio WEB:** https://triqui-game-neon.vercel.app/
+> 🔗 **Sitio WEB:** https://only-shopping.vercel.app/
 
 # React + Vite  
 
