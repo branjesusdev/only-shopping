@@ -4,19 +4,16 @@ import ShirtCard from "@infrastructure/presentation/components/ShirtCard";
 import ModalProduct from "@infrastructure/presentation/components/ModalProduct";
 
 import DirectoryPathShirts from "@domain/logic/DirectoryPathShirts";
+import {InitProducts} from "@domain/models/InitProducts";
 
 function Products({ productsArray }) {
   const [showPreview, setShowPreview] = useState(false);
-  const [productData, setProductData] = useState({
-    image: "",
-    description: "",
-    precie: "",
-    sizes: [],
-  });
+  const [productData, setProductData] = useState(InitProducts);
 
-  const handlePreviewShow = ({ image, description, precie, sizes }) => {
+  const handlePreviewShow = (shirdProduct) => {
+    if(!shirdProduct)return
     setShowPreview(true);
-    setProductData({ image, description, precie, sizes });
+    setProductData(shirdProduct);
   };
 
   const handlePreviewHide = () => {
@@ -32,11 +29,8 @@ function Products({ productsArray }) {
         productsArray.map((product) => {
           return (
             <ShirtCard
-              image={DirectoryPathShirts() + `${product.image}`}
               key={product.ref}
-              sizes={product.sizes}
-              precie={product.precie}
-              description={product.description}
+              shirdProduct={{...product, image: DirectoryPathShirts() + product.image}}
               handleViewProduct={handlePreviewShow}
             ></ShirtCard>
           );

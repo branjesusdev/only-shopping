@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 import { getProducts } from '@infrastructure/adapters/products'
-import { linkWhatsApp, linkFacebook } from '@/app/config/defaults'
+import { linkWhatsApp, linkFacebook, messageContactGeneral } from '@/app/config/defaults'
 
 import FocusSite from '@infrastructure/presentation/layouts/FocusSite'
 import Products from '@infrastructure/presentation/layouts/Products'
@@ -14,7 +14,7 @@ function Index() {
   const [ products, setProducts ] = useState([])
   const [ skeleton, setSkeleton ] = useState(true)
 
-  const actionWhatsApp = `${linkWhatsApp}Hola!! Quiero más información`
+  const actionWhatsApp = `${linkWhatsApp}${messageContactGeneral}`
   const actionFacebook = linkFacebook
 
   const refreshProducts = () => {

@@ -1,32 +1,47 @@
-
 import ButtonContact from "@infrastructure/presentation/components/ButtonContact";
-import { linkWhatsApp } from '@/app/config/defaults'
+import { linkWhatsApp, messageContactProduct } from "@/app/config/defaults";
 
-function ShirtCard({ image, sizes, precie, description, handleViewProduct }) {
+function ShirtCard({ shirdProduct, handleViewProduct }) {
+  if (!shirdProduct) return;
+  const { image, sizes, precie, description, title, message } = shirdProduct;
 
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <img
-        className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full min-h-[8rem] max-h-[28rem] hover:scale-105 align-middle inline-block"
-        onClick={() => handleViewProduct({image, description, precie, sizes})}
-        src={image}
-        alt={description}
-        title={description}
-        width="591"
-        height="556"
-        decoding="async"
-        sizes="(max-width: 591px) 100px, 591px"
-        data-sizes="(max-width: 591px) 100px, 591px"
-        data-ll-status="loaded"
-        data-src={image}
-        srcSet={`${image} 591w`}
-      />
-      <div className="p-5">
-        {/* <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Camisa blanca</h5>
-        </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p> */}
+    <blockquote
+      className="max-w-sm bg-white border 
+      border-gray-200 rounded-lg shadow 
+      dark:bg-gray-800 dark:border-gray-700 
+        relative flex flex-col justify-between"
+    >
+      <header>
+        <img
+          className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full min-h-[8rem] max-h-[28rem] hover:scale-105 align-middle inline-block"
+          onClick={() => handleViewProduct(shirdProduct)}
+          src={image}
+          alt={description}
+          title={description}
+          width="591"
+          height="556"
+          decoding="async"
+          sizes="(max-width: 591px) 100px, 591px"
+          data-sizes="(max-width: 591px) 100px, 591px"
+          data-ll-status="loaded"
+          data-src={image}
+          srcSet={`${image} 591w`}
+        />
 
+        <div className="pt-4 px-4 lg:px-5 lg:pt-5">
+          <a href="#">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {title}
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            {description}
+          </p>
+        </div>
+      </header>
+      
+      <footer className="p-4 lg:p-5">
         {sizes?.map((size, index) => {
           return (
             <span
@@ -44,13 +59,11 @@ function ShirtCard({ image, sizes, precie, description, handleViewProduct }) {
           </span>
           <ButtonContact
             textButton="Comprar"
-            redirectTo={
-              `${linkWhatsApp + description}`
-            }
+            redirectTo={`${linkWhatsApp}${messageContactProduct}${message}`}
           ></ButtonContact>
         </div>
-      </div>
-    </div>
+      </footer>
+    </blockquote>
   );
 }
 

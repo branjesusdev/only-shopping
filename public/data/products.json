@@ -5,56 +5,72 @@
     {
       "ref" : "0001",
       "image" : "image1.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Lion The King",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Lion King Referencia 1",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
     },
     {
-      "ref" : "0003",
+      "ref" : "0002",
       "image" : "image2.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Barbie",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Barbie Referencia 2",
       "precie": "$20.000",
       "sizes": [ "S"]
     },
     {
-      "ref" : "0004",
+      "ref" : "0003",
       "image" : "image3.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Tom and Jerry",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Tom and Jerry Referencia 3",
       "precie": "$20.000",
       "sizes": [ "S", "L" ]
     },
     {
-      "ref" : "0005",
+      "ref" : "0004",
       "image" : "image4.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Lala",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Lala Referencia 4",
       "precie": "$20.000",
       "sizes": [ "XL", "M" ]
     },
     {
-      "ref" : "0006",
+      "ref" : "0005",
       "image" : "image5.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Goofy",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Goofy Referencia 5",
       "precie": "$20.000",
       "sizes": [ "L", "M" ]
     },
     {
-      "ref" : "0007",
+      "ref" : "0006",
       "image" : "image6.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Stich",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Stitch Referencia 6",
       "precie": "$20.000",
       "sizes": [ "S", "M", "XL"  ]
     },
     {
-      "ref" : "0008",
+      "ref" : "0007",
       "image" : "image7.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Minnie Mickey",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Minnie Mickey Referencia 7",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
     },
     {
-      "ref" : "0009",
+      "ref" : "0008",
       "image" : "image8.avif",
-      "description": "Camisa blanca estanpada",
+      "title" : "Minnie",
+      "description": "Camisa blanca de algodón, perfecta para cualquier ocasión.",
+      "message": "Camisa blanca estanpada Minnie Referencia 8",
       "precie": "$20.000",
       "sizes": [ "S", "M" ]
     }    

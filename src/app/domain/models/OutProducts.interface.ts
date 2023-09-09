@@ -1,15 +1,17 @@
 export interface OutProducts {
-  code:     number;
-  message:  string;
+  code: number;
+  message: string;
   products: Product[];
 }
 
 export interface Product {
-  ref:         string;
-  image:       string;
+  ref: string;
+  image: string;
+  title: string;
   description: string;
-  precie:      string;
-  sizes:       Size[];
+  message: string;
+  precie: string;
+  sizes: Size[];
 }
 
 export enum Size {
