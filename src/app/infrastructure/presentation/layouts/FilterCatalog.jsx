@@ -3,7 +3,6 @@ import NequiLogo from "@/assets/icons/nequi.avif";
 import useIsFixedScroll from "@infrastructure/hooks/useIsFixedScroll";
 import IconWhatsApp from "@infrastructure/presentation/components/content/IconWhatsApp";
 import IconFacebook from "@infrastructure/presentation/components/content/InconFacebook";
-import IconPhone from "@infrastructure/presentation/components/content/IconPhone";
 
 function FilterCatalog({ linkWhatsApp, linkFacebook }) {
   const fixedElement = "scroll-top--fixed";
@@ -43,6 +42,7 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
             <div className="grid grid-cols-2 gap-2 xl:gap-6">
               <a
                 href={linkWhatsApp}
+                target="_blank"
                 aria-label="Consultar más sobre nuestros procutos por WhatsApp"
                 className="cursor-pointer hover:scale-110 transition-all delay-75 flex flex-col items-center"
               >
@@ -54,6 +54,7 @@ function FilterCatalog({ linkWhatsApp, linkFacebook }) {
               </a>
               <a
                 href={linkFacebook}
+                target="_blank"
                 aria-label="Consultar más sobre nuestros procutos por Facebook"
                 className="cursor-pointer hover:scale-110 transition-all delay-75 flex flex-col items-center"
               >

@@ -35,8 +35,8 @@ function Index() {
         <FocusSite></FocusSite>
         <FilterCatalog linkWhatsApp={actionWhatsApp} linkFacebook={actionFacebook}></FilterCatalog>
         <Products productsArray={products} skeletonStatus={skeleton}></Products>
-        <FooterSite></FooterSite>
       </main>
+      <FooterSite linkWhatsApp={actionWhatsApp} linkFacebook={actionFacebook}></FooterSite>
     </>
   );
 }
