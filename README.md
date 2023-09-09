@@ -1,8 +1,8 @@
 <div style="display: flex;">
-  <img src="/src/assets/Home.png" alt="Home" style="width:300px;">
-  <img src="/src/assets/Products.png" alt="Winner" style="width: 300px;">
-  <img src="/src/assets/Detail.png" alt="Empate" style="width: 300px;">
-  <img src="/src/assets/SEO.png" alt="Empate" style="width: 300px;">
+  <img src="/public/git/Home.png" alt="Home" style="width:300px;">
+  <img src="/public/git/Products.png" alt="Winner" style="width: 300px;">
+  <img src="/public/git/Detail.png" alt="Empate" style="width: 300px;">
+  <img src="/public/git/SEO.png" alt="Empate" style="width: 300px;">
 </div>
 
 
