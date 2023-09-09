@@ -55,7 +55,7 @@ function FooterSite({ linkWhatsApp, linkFacebook }) {
             </div>
             <div>
               <IconPhone></IconPhone>
-              <a>(+57) 322 443 0609 - (+57) 320 000 0011</a>
+              <p>(+57) 322 443 0609 - (+57) 320 000 0011</p>
             </div>
           </div>
         </div>
