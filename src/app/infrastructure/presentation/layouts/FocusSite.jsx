@@ -16,14 +16,20 @@ function FucusSite() {
               Elige tu camiseta
             </p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center w-[10rem]  sm:w-[20rem]  md:w-[30rem] xl:w-[32rem] 2xl:w-[40rem]">
             <img
               src={imgFocus}
               alt="Blusa dama con colores de fondos en degradado"
-              width="436"
+              width="1280"
+              height="1280"
+              decoding="async"
               fetchpriority="high"
-              sizes="(max-width: 767px) 767px, 100vw"
-              className="h-[10rem]  sm:h-[20rem]  md:h-[30rem] xl:h-[32rem] 2xl:h-[40rem] w-auto animate-fade-up"
+              sizes="(max-width: 1280px) 100px, 1280px"
+              data-sizes="(max-width: 1280px) 100px, 1280px"
+              data-ll-status="loaded"
+              className="h-auto w-full animate-fade-up align-middle inline-block"
+              data-src={imgFocus}
+              srcSet={`${imgFocus} 1280w`}
             />
           </div>
         </article>
