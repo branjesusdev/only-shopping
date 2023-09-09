@@ -7,7 +7,7 @@ function ShirtCard({ image, sizes, precie, description, handleViewProduct }) {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <img
-        className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full min-h-[12rem] max-h-[28rem] hover:scale-105 align-middle inline-block"
+        className="rounded-t-[30rem] rounded-b-full cursor-pointer w-full min-h-[8rem] max-h-[28rem] hover:scale-105 align-middle inline-block"
         onClick={() => handleViewProduct({image, description, precie, sizes})}
         src={image}
         alt={description}
